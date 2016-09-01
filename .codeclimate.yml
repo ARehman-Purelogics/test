@@ -5,18 +5,19 @@ engines:
     # Rubocop/Metrics/ClassLength:
     #   enabled: false
   golint:
-    enabled: true
+    enabled: false
   eslint:
-    enabled: true
+    enabled: false
   csslint:
-    enabled: true
+    enabled: false
   duplication:
-    enabled: true
+    enabled: false
     config:
       languages:
       - ruby
         #mass_threshold: 30
       - javascript
+	  - PHP
 ratings:
   paths:
   - app/**
