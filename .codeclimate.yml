@@ -5,13 +5,13 @@ engines:
     # Rubocop/Metrics/ClassLength:
     #   enabled: false
   golint:
-    enabled: false
+    enabled: true
   eslint:
-    enabled: false
+    enabled: true
   csslint:
-    enabled: false
+    enabled: true
   duplication:
-    enabled: false
+    enabled: true
     config:
       languages:
       - ruby
